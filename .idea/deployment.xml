@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="jquery-form">
+    <serverData>
+      <paths name="jquery-form">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="jquery-form" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
