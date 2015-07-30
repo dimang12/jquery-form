@@ -2,9 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Text Input- JQuery Form</title>
+
+    <!--Loading stylesheet-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/text-input.css">
+    <!--End loading stylesheet-->
+
+    <!--Loading script-->
+    <script src="../js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../js/dInput-1.0.js" type="text/javascript"></script>
+    <!--End loading script-->
+
 </head>
 <body>
+
+    <div class="container">
+        <header class="">
+            <h1 class="text-center text-warning">General Text Input</h1>
+            <hr>
+        </header>
+
+        <section class="col-md-4">
+            <!--wrapper d-control-->
+            <div class="d-wrapper">
+
+                <!--head of d-control-->
+                <div class="d-header clearfix">
+                    <label for="" class="d-label">Simple text:</label>
+                    <div class="d-tools">
+                        <a href="#" class="d-action danger">
+                            <span class="glyphicon glyphicon-remove"></span>
+                        </a>
+                    </div>
+                </div>
+                <!--end head of d-control-->
+
+                <!--body of d-control-->
+                <div class="d-body round">
+                    <input type="number" class="input-control" placeholder="Simple text">
+                </div>
+                <!--end body of d-control-->
+
+                <!--message of d-control-->
+                <div class="d-msg">
+                    <span class="d-msg-default">This is just a simple text</span>
+                </div>
+                <!--end message of d-control-->
+
+            </div>
+            <!--end wrapper d-control-->
+        </section>
+
+        <section class="col-md-4">
+            <div class="d-wrapper">
+                <input type="text" class="d-control input-control">
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        $('.d-control').dInput();
+    </script>
 
 </body>
 </html>
